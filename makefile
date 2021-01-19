@@ -10,9 +10,6 @@ install: ## Install dependency
 pocket: ## Get all pocket
 	poetry run pocket-to-sqlite fetch pocket.db
 
-.PHONY: swarm
-swarm: ## Get all swarm
-	poetry run swarm-to-sqlite checkins.db
 
 .PHONY: github
 github: ## Get all github data

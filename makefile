@@ -23,4 +23,4 @@ twitter: ## Get all github data
 	poetry run twitter-to-sqlite favorites twitter_favorites.db
 
 .PHONY: all
-all: swarm pocket github twitter ## All update
+all: pocket github twitter ## All update
